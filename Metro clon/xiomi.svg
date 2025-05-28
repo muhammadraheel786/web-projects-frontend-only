@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sm_X</title>
+    <g id="sm_X" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="fill" x="0" y="0" width="24" height="24"></rect>
+        <path d="M14.0929883,10.3154986 L22.2829833,1 L20.3422167,1 L13.230845,9.08851652 L7.55101333,1 L1,1 L9.58902,13.2312695 L1,23 L2.94087667,23 L10.4506683,14.4582516 L16.4489867,23 L23,23 L14.0925117,10.3154986 L14.0929883,10.3154986 Z M11.4346917,13.3390298 L10.564445,12.1210711 L3.64020167,2.4296475 L6.621275,2.4296475 L12.20922,10.2509357 L13.0794667,11.4688944 L20.3431333,21.6353711 L17.36206,21.6353711 L11.4346917,13.3394962 L11.4346917,13.3390298 Z" id="Shape" fill="#0064FE" fill-rule="nonzero"></path>
+    </g>
+</svg>

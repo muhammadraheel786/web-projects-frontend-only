@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HixaBy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+    <div class="logo">HixaBy</div>
+    <nav>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li class="dropdown">
+                <a href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="/live timer/time.html" target="_main">Live Timer</a></li>
+                    <li><a href="/shopping cart/index.html"  target="_main">Shopping Cart</a></li>
+                    <li><a href="/Temperature converter/index.html"  target="_main">Temperature Converter</a></li>
+                    <li><a href="/BMI calculator/index.html"  target="_main">BMI Calculator</a></li>
+                    <li><a href="/Grade calculator/index.html"  target="_main">Grade Calculator</a></li>
+                    <li><a href="/Dice game/index.html"  target="_main">Dice Game</a></li>
+                    <li><a href="/timer with reset and pause/index.html"  target="_main">Timer</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <a href="login.html" class="btn-login">Login/SignUp</a>
+    <div class="hamburger" id="hamburger">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover Your Next Favorite Song</h1>
+        <p>Explore a vast collection of songs across various genres. Whether you're into pop, rock, jazz, or classical, we have something for everyone!</p>
+        <a href="#songs" class="btn-explore">Explore Now</a>
+    </div>
+</section>
+
+<main>
+    <div class="gallery-wrap">
+        <img src="live timer/images/back.png" id="backBtn">
+    
+        <div class="gallery">
+            <span><video src="song1.mp4" controls autoplay muted>My Video 1</video></span>
+            <span><video src="song2.mp4" controls autoplay muted>My Video 2</video></span>
+            <span><video src="song3.mp4" controls autoplay muted>My Video 3</video></span>
+            <span><video src="song4.mp4" controls autoplay muted>My Video 4</video></span>
+            <span><video src="song5.mp4" controls autoplay muted>My Video 5</video></span>
+            <span><video src="song6.mp4" controls autoplay muted>My Video 6</video></span>
+        </div>
+        
+        <img src="live timer/images/next.png" id="nextBtn">
+    </div>
+</main>
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 HixaBy. All rights reserved.</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

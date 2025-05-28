@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#head{
+    background-color: rgb(33, 38, 52);
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.class
+{
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+}
+img:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#imagecontainor
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+#options
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.you
+{
+    margin-left: 200px;
+    margin-right: 130px;
+}
+.you h1
+
+{
+    margin-left: 20px;
+    height: 20px;
+}
+
+
+.para
+{
+color: rgb(45, 26, 190);
+font-weight: bolder;
+font-size: 2rem;
+
+}
+
+
+#message
+{
+    text-align: center;
+    background-color: rgb(11, 11, 86);
+    width:220px;
+    height: 4rem;
+    margin-left: 43%;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+    color: white;
+}

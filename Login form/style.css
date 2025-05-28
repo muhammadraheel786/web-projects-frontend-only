@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    margin-bottom: 2px;
+    background-position: 10%  20%;
+    
+}
+
+#midlleimage{
+    background-image: url(middle.jpg);
+
+}
+
+
+
+
+#login-box{
+height: 400px;
+width: 500px;
+margin-left: 400px;
+margin-top: 100px;
+margin-bottom: 200px;
+background-color: black;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(lohi.jpg);
+background-size: cover;
+border-radius: 10%;
+}
+
+#main{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mano
+{
+border-radius: 30px;
+border: none;
+height: 30px;
+width: 250px;
+background-color: black;
+color: white;
+}
+#password
+{
+    margin-top: 10px;
+}
+#google{
+    margin-top: 10px;
+    text-decoration: none;
+    
+}
+#faaaa{
+    text-decoration: none;
+    color: white;
+}
+#dddd{
+    text-decoration: none;
+    color: white;
+}
+#check
+{
+    margin-top: 5px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#remember{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: small;
+    
+}
+#Forget{
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    font-size: small;
+    color: blue ;
+   
+}
+#last{
+    margin-top: 5px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#sign{
+    font-size: medium;
+}
